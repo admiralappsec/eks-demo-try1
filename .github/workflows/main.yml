@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  IMAGE_NAME_TAG: 'eks-petclinic-mark-testing:contrast-demo-10'
+  IMAGE_NAME_TAG: 'aws-contrast-webinar:contrast-demo-10'
   APPLICATION_MANIFEST: '/example/kubernetes/petclinic.yaml'
   APPLICATION_DOCKERFILE: '/example/docker/Dockerfile'
   CLUSTER_NAME: 'eks-mark-testing-ga'
