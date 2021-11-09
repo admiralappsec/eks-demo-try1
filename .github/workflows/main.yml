@@ -9,7 +9,7 @@ env:
   IMAGE_NAME_TAG: 'aws-contrast-webinar:contrast-demo-10'
   APPLICATION_MANIFEST: '/example/kubernetes/petclinic.yaml'
   APPLICATION_DOCKERFILE: '/example/docker/Dockerfile'
-  CLUSTER_NAME: 'eks-mark-testing-ga'
+  CLUSTER_NAME: 'aws-contrast-webinar'
   APPLICATION_ARTIFACT: '/example/docker/spring-petclinic-1.5.1.jar'
 
 jobs:
